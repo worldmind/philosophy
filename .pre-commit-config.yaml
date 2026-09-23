@@ -1,4 +1,11 @@
 repos:
+  - repo: local
+    hooks:
+      - id: check-allowed-file-types
+        name: Check that commited files has allowed type
+        entry: Add file type if needed, but verify that formatter/linter are configured
+        language: fail
+        files: (?x)[/].*\.(?!(xml|tex|json|yaml|gitignore)$)[^.]+$
   - repo: https://github.com/spinergie/pre-commit-dprint
     rev: "v0.54.0"
     hooks:
