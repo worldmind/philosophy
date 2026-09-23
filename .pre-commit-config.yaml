@@ -1,0 +1,14 @@
+repos:
+  - repo: https://github.com/spinergie/pre-commit-dprint
+    rev: "v0.54.0"
+    hooks:
+      - id: dprint
+        name: Formatting from dprint
+  - repo: local
+    hooks:
+      - id: validate
+        name: Validate Axiom's docbook
+        entry: make -C Axioms_of_Liberalism validate
+        language: system
+        pass_filenames: false
+        files: '\.xml$'

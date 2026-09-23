@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book
+  xmlns="http://docbook.org/ns/docbook"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xml:id="axioms_of_liberalism"
+  version="5.2"
+  xml:lang="ru"
+>
+  <info>
+    <title>Аксиомы либерализма</title>
+    <abstract>
+      <para>...</para>
+    </abstract>
+    <author>
+      <personname>
+        <firstname>Алексей</firstname>
+        <surname>Шруб</surname>
+      </personname>
+      <email>aleksej.shrub@iki.fi</email>
+    </author>
+    <copyright>
+      <year>2026</year>
+      <holder>Алексей Шруб</holder>
+    </copyright>
+    <legalnotice>
+      <para>Книга распространяется на условиях лицензии
+        Creative Commons «Attribution-ShareAlike 4.0 International» (CC BY-SA 4.0).</para>
+    </legalnotice>
+  </info>
+
+  <xi:include href="individualism.xml" />
+</book>
