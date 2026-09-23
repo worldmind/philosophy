@@ -29,5 +29,5 @@
     </legalnotice>
   </info>
 
-  <xi:include href="individualism.xml" />
+  <xi:include href="chapters/individualism.xml" />
 </book>
